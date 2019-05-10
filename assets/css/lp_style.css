@@ -1,0 +1,49 @@
+body {
+    margin: 0 0 0 0;
+}
+
+#couponContainer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Inconsolata', monospace;
+}
+
+#couponCode {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.defaultButton {
+    padding: 7px;
+    border-radius: 2px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    background-color: black;
+    border-width: 0px; 
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+
+.defaultButton:hover {
+    background-color: #1A1A1A;
+    transition: 0.2s;
+}
+
+#couponButton {
+    color: black;
+    background-color: white;
+    border-color: white;
+    margin-left: 10px;
+}
+
+#couponButton:hover {
+    background-color: #E6E6E6;
+    transition: 0.2s;
+
+}
