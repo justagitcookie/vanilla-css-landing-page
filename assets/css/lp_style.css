@@ -1,7 +1,17 @@
 body {
     margin: 0 0 0 0;
+    /*background-color: purple;*/
+    background: linear-gradient(135deg, #790279 25%,#c14ef7 75%);
+   /*background-color: #ff0d7b;*/
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    text-shadow: 3px 2px black;
+}
 #couponContainer {
     background-color: black;
     color: white;
@@ -40,10 +50,47 @@ body {
     background-color: white;
     border-color: white;
     margin-left: 10px;
+    width: 125px;
+    /* add this to mediaquery for small devices! margin-top: 5px; */
 }
 
 #couponButton:hover {
     background-color: #E6E6E6;
     transition: 0.2s;
 
+}
+
+#splashContainer {
+    width: 100%;
+    min-height: 385px;
+    text-align: center;
+    background-color: purple;
+}
+
+#splashTitle {
+    text-align: center;
+    width: 100%;
+}
+
+#splashTitle h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#splashHeadline {
+    padding-top: 100px;
+}
+
+#splashImage {
+    background-image:url('../images/tarot_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 75vh;
+    min-height: 350px;
+    -webkit-box-shadow: 0 3px 5px #382430;
+    -moz-box-shadow: 0 3px 5px #382430;
+    box-shadow: 0 3px 5px #382430;
+    outline: 1px solid #381621;
+    border-top:1px solid #29030e;
 }
